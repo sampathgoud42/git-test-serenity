@@ -1,6 +1,6 @@
 # git-test-serenity
 sample git api and UI tests
-=========== GIT API and UI Sample Automation Test Project ===================================
+
 
 Language: Java
 Framework: Serenity BDD open source Library with Page Objects
