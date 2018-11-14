@@ -82,7 +82,7 @@
 						<serenity.log>VERBOSE</serenity.log>
 					</systemPropertyVariables>
 					<includes>
-						<include>**/SampleTest.java</include>
+						<include>**/*TestSuite.java</include>
 					</includes>
 					<executions>
 						<execution>

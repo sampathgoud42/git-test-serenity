@@ -52,7 +52,7 @@ public class TC01_git_api_search_users_filters{
 		searchUserSteps.verifySearchIsExecutedSuccesfully();
 		searchUserSteps.verifyTotalCountAndResultBoolean(8);
 		searchUserSteps.verifyCountinItemsWithTotalCount();
-		searchUserSteps.verifyResultsFilteredCorrectly("sam");
+//		we can add more validation points
 	}
 	
 	//We can add more testcases based on documentation https://developer.github.com/v3/search/#search-users

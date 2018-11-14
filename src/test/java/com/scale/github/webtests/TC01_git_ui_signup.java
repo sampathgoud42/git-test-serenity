@@ -23,6 +23,9 @@ import net.thucydides.junit.annotations.UseTestDataFrom;
 // configured this yet
 @UseTestDataFrom(value = "", separator = ',')
 public class TC01_git_ui_signup {
+	@Managed (driver="chrome")
+	WebDriver driver;
+	
 	// Test setup and tear down can be implemented for better usage of framework and
 	@Before
 	public void setup() {
@@ -36,8 +39,7 @@ public class TC01_git_ui_signup {
 	}
 
 	// Web Driver can be override from CLI using -D webdriver.driver="<driver>"
-	@Managed
-	WebDriver driver;
+
 
 	@Test
 	@Pending

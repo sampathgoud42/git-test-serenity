@@ -1,9 +1,9 @@
 # git-test-serenity
-sample git api and UI tests
+sample git api tests
 
 
 Language: Java
-Framework: Serenity BDD open source Library with Page Objects
+Framework: Serenity BDD open source Library
 API Tests: using Rest assured Library
 UI tests: Selenium 3.X
 Build Tool: Maven
